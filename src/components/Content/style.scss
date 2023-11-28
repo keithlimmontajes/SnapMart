@@ -1,0 +1,49 @@
+.content-list {
+  padding: 30px;
+  // border: 1px solid green;
+  max-height: 84vh;
+  min-height: 84vh;
+  overflow-y: auto;
+
+  animation: fadeIn 1s;
+  animation-fill-mode: backwards;
+  animation-delay: 2s;
+}
+
+.content-card {
+  background-color: #fff;
+  padding: 50px;
+  border: 1px solid silver;
+  margin: 20px 0px 20px 0px;
+  height: 150px;
+
+  box-shadow: 10px 10px 5px -7px rgba(158, 146, 146, 0.75);
+  -webkit-box-shadow: 10px 10px 5px -7px rgba(158, 146, 146, 0.75);
+  -moz-box-shadow: 10px 10px 5px -7px rgba(158, 146, 146, 0.75);
+
+  border-radius: 5px;
+}
+
+.description {
+  text-align: justify;
+  color: #000;
+  font-size: 12px;
+}
+
+.category {
+  color: green;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.title {
+  font-size: 14px;
+  font-weight: 700;
+  color: #000;
+}
+
+.price {
+  color: green;
+  font-size: 25px;
+  font-weight: 600;
+}

@@ -1,0 +1,39 @@
+.leftbar-cotainer {
+  min-height: 90.8vh;
+  background-color: #e2c799;
+  box-shadow: 4px 0px 5px -2px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 4px 0px 5px -2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 4px 0px 5px -2px rgba(0, 0, 0, 0.75);
+
+  .leftbar-category-div {
+    padding: 20px 0 0 30px;
+    animation: lightSpeedInLeft 1s;
+    animation-fill-mode: backwards;
+    animation-delay: 2s;
+
+    .leftbar-category-span {
+      color: #9a3b3b;
+      font-size: 25px;
+      cursor: pointer;
+
+      &:hover {
+        display: inline-block;
+        animation: heartBeat 1s;
+        animation-duration: 1.5s;
+        animation-iteration-count: infinite;
+      }
+
+      &:active {
+        opacity: 0.5;
+      }
+    }
+  }
+
+  .badge {
+    padding: 8px;
+    border-radius: 8px;
+    color: black;
+    border: 1px solid yellow;
+    background-color: yellow;
+  }
+}
