@@ -66,11 +66,9 @@ const Right = () => {
       <div className="checkout-main-card">
         <Button
           style={{
-            right: 0,
-            top: 10,
-            left: "80%",
             background: "red",
             fontWeight: 600,
+            margin: "10px 0px",
           }}
           onClick={() => clearCartItem()}
         >
@@ -82,7 +80,7 @@ const Right = () => {
           return (
             <div key={`${item?.id}_id_${index}`} className="checkout-card">
               <Row>
-                <Image width={110} height={110} src={item?.imageUrl} />
+                <Image width={100} height={100} src={item?.imageUrl} />
                 <div className="details">
                   <p className="checkout-text title">{item?.productName}</p>
                   <p className="checkout-text">
